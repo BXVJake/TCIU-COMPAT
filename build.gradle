@@ -126,7 +126,7 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.0"
     implementation fg.deobf("slimeknights.mantle:Mantle:1.20.1-1.11.61")
     implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.20.1-3.10.0.67")
-    implementation fg.deobf(name: 'IndustrialUpgrade-1.20.1-3.3.0.4', ext: 'jar')
+    implementation project(':IndustrialUpgrade')
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

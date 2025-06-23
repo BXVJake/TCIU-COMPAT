@@ -1,4 +1,4 @@
 rootProject.name = 'tciu_compat'
 
-include ':IndustrialUpgrade'
-project(':IndustrialUpgrade').projectDir = file('IndustrialUpgrade')
+include ':industrialupgrade'
+project(':industrialupgrade').projectDir = file('industrialupgrade')
